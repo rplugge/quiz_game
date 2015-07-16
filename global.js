@@ -10,7 +10,7 @@ var question3_answer = "b"
 var question4 = "Who was the first person to kill Goku?"
 var question4_answer = "d"
 
-
+var questions = [question1, question2, question3, question4];
 
 alert(question1);
 
@@ -62,4 +62,4 @@ if (user_answer == question4_answer) {
   alert("Sorry, that was incorrect :(")
 }
 
-alert("You have a score of " + score + " ! You got " + score + " out of " )
+alert("You have a score of " + score + " ! You got " + score + " out of " + questions.length + " correct!" )
